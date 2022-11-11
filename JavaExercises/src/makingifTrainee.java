@@ -11,5 +11,17 @@ public class makingifTrainee {
         }else{
             System.out.println("Your show selection will make your very happy");
         }
+
+        String FavoriteFood="Pique Macho";
+        System.out.println(FavoriteFood);
+
+        if(Inputname<100){
+            FavoriteFood="Sillpancho";
+            System.out.println(FavoriteFood);
+        }
+        else{
+            FavoriteFood="Planchita";
+            System.out.println(FavoriteFood);
+        }
     }
 }
