@@ -1,5 +1,6 @@
 
 
+import java.util.Scanner;
 public class HighschoolTrainee {
     public static void main(String[] args) {
         int StudentAge=23;
@@ -20,6 +21,11 @@ public class HighschoolTrainee {
         System.out.println("The studen first name is "+FirstName);
         System.out.println("The studen last name is "+LastName);
         System.out.println("the student : "+StudentName+" "+LastName+" And their Initials are: " + FirstInitial + LastInitial);
+
+        Scanner input = new Scanner(System.in);
+        Prom=input.nextDouble();
+
+        System.out.println("The new prom are "+ Prom);
     }
 
 
